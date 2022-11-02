@@ -93,7 +93,7 @@ def checkWin():
         return 1
     elif board[1] == "X" and board[5] == "X" and board[9] == "X":
         return 1 
-    elif board[3] == "X" and board[5] == "X" and board[9] == "X":
+    elif board[3] == "X" and board[5] == "X" and board[7] == "X":
         return 1
     # Y win conditions
     elif board[1] == "O" and board[2] == "O" and board[3] == "O":
@@ -110,7 +110,7 @@ def checkWin():
         return 2
     elif board[1] == "O" and board[5] == "O" and board[9] == "O":
         return 2
-    elif board[3] == "O" and board[5] == "O" and board[9] == "O":
+    elif board[3] == "O" and board[5] == "O" and board[7] == "O":
         return 2
     # If no win conditions are met
     else:
